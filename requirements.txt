@@ -1,0 +1,21 @@
+# ── Core ML ──────────────────────────────────────────────────
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+xgboost>=2.0
+lightgbm>=4.0
+joblib>=1.3
+
+# ── Survival Analysis ───────────────────────────────────────
+lifelines>=0.28
+
+# ── Uplift Modeling ─────────────────────────────────────────
+scikit-uplift>=0.5
+
+# ── Explainability ──────────────────────────────────────────
+shap>=0.44
+
+# ── API Server ──────────────────────────────────────────────
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.5
